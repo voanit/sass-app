@@ -3,11 +3,11 @@
  * @Author: voanit
  * @Date: 2021-06-21 16:21:50
  * @LastEditors: voanit
- * @LastEditTime: 2021-06-21 19:33:59
+ * @LastEditTime: 2021-06-21 20:00:11
 -->
 <template>
-  <view class="content">
-    <image class="logo" src="/static/logo.png"></image>
+  <view class="">
+    <image class="" src="/static/logo.png"></image>
     <view>
       <text class="title">{{ userInfo.name }}</text>
     </view>
@@ -21,13 +21,8 @@ export default {
       userInfo: {}
     }
   },
-  onShow() {
-    //必经之路
-    console.log(2)
-  },
+  onShow() {},
   onLoad() {
-    //每次页面重新加载时执行
-    console.log(1)
     this.getData()
   },
   methods: {
@@ -45,14 +40,4 @@ export default {
 }
 </script>
 
-<style>
-.content {
-  text-align: center;
-  padding: 20px;
-}
-.logo {
-  margin-bottom: 20px;
-  width: 100px;
-  height: 100px;
-}
-</style>
+<style></style>
