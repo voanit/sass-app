@@ -1,0 +1,20 @@
+{
+  "printWidth": 160,
+	"semi": false,
+  "singleQuote": true,
+  "proseWrap": "never",
+  "arrowParens": "avoid",
+  "bracketSpacing": true,
+  "disableLanguages": ["vue"],
+  "endOfLine": "auto",
+  "htmlWhitespaceSensitivity": "ignore",
+  "ignorePath": ".prettierignore",
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "requireConfig": false,
+  "stylelintIntegration": false,
+  "tslintIntegration": false,
+  "eslintIntegration": false,
+  "trailingComma": "none",
+  "insertPragma": false
+}
